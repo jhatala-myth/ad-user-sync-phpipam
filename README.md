@@ -1,4 +1,4 @@
-# User account synchronization
+# phpIPAM / AD User account synchronization
 
 phpIPAM has no native tools for synchronization between local users and AD, therefore following solution should cover a gap.<br>
 All users account for phpIPAM are stored locally in db but with different authentication methods.<br>
