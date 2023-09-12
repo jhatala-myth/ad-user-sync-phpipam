@@ -5,6 +5,8 @@ All users account for phpIPAM are stored locally in db but with different auth
 
 Available methods:  
 
+![phpIPAM Auth](/phpIPAM-auth.png)
+
 An idea is to have the same name (or almost) for each group in AD and phpIPAM, therefore the following groups has been created in phpIMAP
 
 | phpIPAM | AD |
@@ -13,7 +15,7 @@ An idea is to have the same name (or almost) for each group in AD and phpIPAM, 
 | ad_phpIPAM_RW | phpIPAM_RW |
 
 Admin group has no mapping in AD but users are assigned to Administrators (Administrator level users)<br>
-Script for synchronization is written in PHP as a native application is also a php-based, therefore no needs of any additional packages / software.<br>
+Script for synchronization is written in PHP as a native application is also a php-based, therefore no needs of any additional packages / software and no extra configuration is needed.<br>
 
 Useful links:
 
